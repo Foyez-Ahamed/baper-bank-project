@@ -21,20 +21,21 @@
 </head>
 <body>
    <!-- header section start here -->
-   <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-   <!-- header top -->
-    <div class="text-center">
-    <h1 class="text-2xl lg:text-5xl capitalize font-bold gradient-text-2">Welcome to your <span class="gradient-text">baper bank!!</span></h1>
-    </div>
-    <!-- header top -->
-    
+   <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10"> 
     <!-- login form section -->
-    <section class="bg-purple-200 w-full lg:w-3/4 mx-auto mt-10 rounded-lg">
+    <section class="bg-purple-200 w-full lg:w-11/12 mx-auto mt-5 lg:mt-10 rounded-lg">
+
+      <!-- header top -->
+    <div class="text-center py-4">
+        <h1 class="text-2xl lg:text-5xl capitalize font-bold gradient-text-2">Welcome to your <span class="gradient-text">baper bank!!!</span></h1>
+        </div>
+        <!-- header top -->
+
         <div class="login-container p-4 lg:p-14">
-            <h1 class="text-3xl mb-5 capitalize font-bold gradient-text">Please login</h1>
-            <input type="text" placeholder="Type here" class="input input-bordered input-secondary w-4/5 block mb-5" />
-            <input type="text" placeholder="Type here" class="input input-bordered input-secondary w-4/5 block" />
-            <button class="px-7 py-2 bg-pink-400 mt-5 text-white font-normal uppercase rounded-md hover:bg-pink-800">Log in</button>
+            <h1 class="text-2xl lg:text-3xl mb-5 capitalize font-bold gradient-text">Please login</h1>
+            <input id="email-field" type="email" placeholder="Your email address" class="input input-bordered input-secondary w-4/5 block mb-5" />
+            <input id="password-field" type="password" placeholder="Your password" class="input input-bordered input-secondary w-4/5 block" />
+            <button id="login-btn" class="px-7 py-2 bg-pink-400 mt-5 text-white font-normal uppercase rounded-md hover:bg-pink-800">Log in</button>
         </div>
     </section>
     <!-- login form section -->
